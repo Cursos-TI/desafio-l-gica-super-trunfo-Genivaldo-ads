@@ -63,7 +63,7 @@ void compararCartas(struct Carta c1, struct Carta c2) {
     printf("\n Comparando Cartas \n");
 
     switch (escolha) {
-        case 1:
+        case 1:  //opção 1 para comparação
             printf("População Carta 1: %d\n", c1.populacao);
             printf("População Carta 2: %d\n", c2.populacao);
             if (c1.populacao > c2.populacao)
@@ -74,7 +74,7 @@ void compararCartas(struct Carta c1, struct Carta c2) {
                 printf(">> Empate!\n");
             break;
 
-        case 2:
+        case 2:  //opção 2 para comparação
             printf("Área Carta 1: %.2f km²\n", c1.area);
             printf("Área Carta 2: %.2f km²\n", c2.area);
             if (c1.area > c2.area)
@@ -85,7 +85,7 @@ void compararCartas(struct Carta c1, struct Carta c2) {
                 printf(">> Empate!\n");
             break;
 
-        case 3:
+        case 3:  // opção 3 para comparação
             printf("PIB Carta 1: R$ %.2f\n", c1.pib);
             printf("PIB Carta 2: R$ %.2f\n", c2.pib);
             if (c1.pib > c2.pib)
@@ -96,7 +96,7 @@ void compararCartas(struct Carta c1, struct Carta c2) {
                 printf(">> Empate!\n");
             break;
 
-        case 4:
+        case 4:  //opção 4 para comparação
             printf("Pontos turísticos Carta 1: %d\n", c1.pontos_turisticos);
             printf("Pontos turísticos Carta 2: %d\n", c2.pontos_turisticos);
             if (c1.pontos_turisticos > c2.pontos_turisticos)
